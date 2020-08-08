@@ -10,6 +10,10 @@
   * [6. 패턴 · 음성인식 기본 개념](undefined/6..md)
   * [7. 음성인식 모델](undefined/7..md)
   * [8. 음성합성](undefined/8..md)
-* [\| 딥러닝 기반 음성인식](or.md)
+* [\| 딥러닝 기반 음성인식](or/README.md)
+  * [1. Digital Signal Processing](or/1.-digital-signal-processing.md)
+  * [2. Intro to Deeplearning](or/2.-intro-to-deeplearning/README.md)
+    * [Deeplearning review](or/2.-intro-to-deeplearning/deeplearning-review.md)
+    * [Deeplearning Tutorials](or/2.-intro-to-deeplearning/deeplearning-tutorials.md)
 * [\| 음성인식 실습](or-1.md)
 
