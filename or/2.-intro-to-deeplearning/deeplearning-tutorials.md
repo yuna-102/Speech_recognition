@@ -290,6 +290,7 @@ def linear_activation_backward(dA, cache, activation):
         dA_prev, dW, db = linear_backward(dZ, linear_cache)
     return dA_prev, dW, db
     
+    
 def L_model_backward(AL, Y, caches):
     grads = {} # 빈 dictionary 호출
     L = len(caches) # 레이어의 갯수를 caches로 부터 받아옵니다.
@@ -443,7 +444,7 @@ CNN 은 이미지의 **특징을 추출** 하는 부분과 **클래스를 분류
 {% hint style="success" %}
 **Returns**
 
-* Z : Convolution 연산의 결과로 나오는 값입니다.
+* Z : Convolution 연산의 결과로 나오는 값
 {% endhint %}
 
 ```python

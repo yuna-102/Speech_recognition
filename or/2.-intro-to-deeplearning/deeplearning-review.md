@@ -21,7 +21,9 @@ FC Layer는 Multi-Layer Perceptron \(MLP\)에서 non-linear function module을 �
 
 * MLP 
 
+![](../../.gitbook/assets/image%20%289%29.png)
 
+![](../../.gitbook/assets/image%20%2815%29.png)
 
 ## Convolutional Neural Networks \(CNN\)
 
@@ -29,11 +31,11 @@ Convolution Layer는 입력을 필터를 사용하여 Convolution연산을 하�
 
 Pooling Layer 은 다운 샘플링 작업으로, 일반적으로 Convolution Layer 이후에 적용되며 spatial invariance을 수행한다. 특히 Max pool과 Average Pool 은 각각 최대 값과 평균값을 취하는 특수 종류의 풀링을 말한다.
 
+![](../../.gitbook/assets/image%20%2834%29.png)
+
 ![](../../.gitbook/assets/image%20%2831%29.png)
 
-![](../../.gitbook/assets/image%20%2828%29.png)
-
-![](../../.gitbook/assets/image%20%2829%29.png)
+![](../../.gitbook/assets/image%20%2832%29.png)
 
 ### CNN in Audio
 
@@ -48,9 +50,9 @@ Pooling Layer 은 다운 샘플링 작업으로, 일반적으로 Convolution Lay
 
 ![](../../.gitbook/assets/image%20%288%29.png)
 
-![](../../.gitbook/assets/image%20%2825%29.png)
+![](../../.gitbook/assets/image%20%2828%29.png)
 
-![](../../.gitbook/assets/image%20%2822%29.png)
+![](../../.gitbook/assets/image%20%2825%29.png)
 
 
 
@@ -60,9 +62,9 @@ Pooling Layer 은 다운 샘플링 작업으로, 일반적으로 Convolution Lay
 
   -Advantage : Time-frequency 두가지 영역에서 pattern을 찾게  된다. \(즉, flexibility를 가지게 되었다고 해석할 수 있다. 2D CNN이 1D CNN에 비해 큰 데이터 셋에 대해서 높은 성능을 보인다.
 
-![](../../.gitbook/assets/image%20%2826%29.png)
+![](../../.gitbook/assets/image%20%2829%29.png)
 
-![](../../.gitbook/assets/image%20%2830%29.png)
+![](../../.gitbook/assets/image%20%2833%29.png)
 
 ### 
 
@@ -75,9 +77,9 @@ Advantage
 *  CNN이 "phase-invariant" representation을 반영한다,
 * 커널이 input signal에 대한 spectral bandwidth를 계산해준다.
 
-![](../../.gitbook/assets/image%20%2832%29.png)
+![](../../.gitbook/assets/image%20%2835%29.png)
 
-![](../../.gitbook/assets/image%20%2817%29.png)
+![](../../.gitbook/assets/image%20%2820%29.png)
 
 
 
@@ -94,9 +96,9 @@ Advantage
 
 • 시간축에 따른 Weights Sharing이 진행된다.
 
-![](../../.gitbook/assets/image%20%2827%29.png)
+![](../../.gitbook/assets/image%20%2830%29.png)
 
-![](../../.gitbook/assets/image%20%2813%29.png)
+![](../../.gitbook/assets/image%20%2816%29.png)
 
 
 
@@ -104,11 +106,11 @@ Advantage
 
 GRU \(Gated Recurrent Unit\) 및 LSTM \(Long Short-Term Memory Unit\)은 기존 RNN에서 vanishing gradient 를 처리하며 LSTM은 GRU의 일반화된 모델이다.
 
-![](../../.gitbook/assets/image%20%2821%29.png)
+![](../../.gitbook/assets/image%20%2824%29.png)
 
-![](../../.gitbook/assets/image%20%289%29.png)
+![](../../.gitbook/assets/image%20%2810%29.png)
 
-![](../../.gitbook/assets/image%20%2820%29.png)
+![](../../.gitbook/assets/image%20%2823%29.png)
 
 
 
@@ -116,15 +118,15 @@ GRU \(Gated Recurrent Unit\) 및 LSTM \(Long Short-Term Memory Unit\)은 기존 
 
 RNN계열 encoding 방식에서는 계속 마지막 hidden state까지 학습을 하면서 연산을 해야했다. 이러한 문제를 해결하는 것이 바로 attention이다. Attention은 input source 와 hidden state의 관계를 학습시키는 추가적인 Network를 만들게 된다. 이 Attention은 output에 의해서 weight를 학습한다.
 
-![](../../.gitbook/assets/image%20%2812%29.png)
-
 ![](../../.gitbook/assets/image%20%2814%29.png)
 
-![](../../.gitbook/assets/image%20%2816%29.png)
+![](../../.gitbook/assets/image%20%2817%29.png)
 
-![](../../.gitbook/assets/image%20%2815%29.png)
-
-![](../../.gitbook/assets/image%20%2810%29.png)
+![](../../.gitbook/assets/image%20%2819%29.png)
 
 ![](../../.gitbook/assets/image%20%2818%29.png)
+
+![](../../.gitbook/assets/image%20%2812%29.png)
+
+![](../../.gitbook/assets/image%20%2821%29.png)
 
