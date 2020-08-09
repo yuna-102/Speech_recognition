@@ -15,5 +15,6 @@
   * [2. Intro to Deeplearning](or/2.-intro-to-deeplearning/README.md)
     * [Deeplearning review](or/2.-intro-to-deeplearning/deeplearning-review.md)
     * [Deeplearning Tutorials](or/2.-intro-to-deeplearning/deeplearning-tutorials.md)
-* [\| 음성인식 실습](or-1.md)
+* [\| 음성인식 실습](or-1/README.md)
+  * [JTBC 뉴스 요약 봇 프로젝트 \(1\) 소스 코드 준비](or-1/jtbc-1.md)
 
